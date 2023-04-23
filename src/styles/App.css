@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+}
+
+.flex {
+    display: flex;
+}
+
+.jac {
+    justify-content: center;
+    align-items: center;
+}
+
+.jc {
+    justify-content: center;
+}
+
+.ac {
+    align-items: center;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-between {
+    justify-content: space-around;
+}
+
+.flex-end-j {
+    justify-content: flex-end;
+}
+
+.flex-start-j {
+    justify-content: flex-start;
+}
+
+.flex-end-a {
+    align-items: flex-end;
+}
+
+.flex-start-a {
+    align-items: flex-start;
+}
+
+.border {
+    border: 1px solid black
+}
+
+.bo {
+    border: none;
+    outline: none;
+}
+
+.header-cont {
+    width: 100%;
+    min-height: 50px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+
+.logo-cont {
+    width: 15%;
+    white-space: nowrap;
+    cursor: pointer;
+    user-select: none;
+}
+
+.input-cont {
+    width: 35%;
+}
+
+.input-search-bar {
+    border: 1px solid rgb(0, 0, 0);
+    width: 90%;
+    height: 80%;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+.cslu-cont {
+    width: 50%;
+}
+
+.cslu-cont>input {
+    width: 120px;
+    height: 50%;
+    padding: 10px;
+}
+
+.cslu-cont>button {
+    min-width: fit-content;
+    padding-left: 10px;
+    cursor: pointer;
+    padding-right: 10px;
+    height: 70%;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+/* midpart css */
+.midpart-cont {
+    width: 100%;
+    min-height: 600px;
+}
+
+.left-cont {
+    width: 20%;
+    min-height: 100%;
+    padding: 20px;
+    border-right: 1px solid black;
+}
+
+.genre-cont {
+    padding: 10px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.right-cont {
+    width: 80%;
+    min-height: 100%;
+}
+
+/* home */
+.movies-conth {
+    width: 100%;
+    min-height: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.movie-card {
+    width: 20%;
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    height: fit-content;
+}
+
+.mi {
+    height: 150px;
+    background-color: rgba(0, 255, 55, 0.767);
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.mtitle {
+    padding: 10px;
+    padding-left: 0;
+}
+
+.mtitlep {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.booknowbtn-cont {
+    padding-top: 20px;
+}
+
+.booknowbtn {
+    width: 100%;
+    padding: 20px;
+    font-size: 25px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.signup-cont {
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+
+.signupinp {
+    width: 100%;
+    height: 30px;
+}
+
+.signupbtn {
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* movie book page css */
+.moviebook-cont {
+    width: 100%;
+    min-height: 100%;
+    padding: 20px;
+}
+
+.movie-details-cont {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    align-items: flex-end;
+}
+
+.movie-image-title-cont {
+    width: 150px;
+    min-height: 100%;
+}
+
+.image {
+    width: 100%;
+    height: 150px;
+    align-items: flex-end;
+}
+
+.mi2 {
+    width: 80%;
+    height: 90%;
+    border-radius: 5px;
+}
+
+.genre {
+    padding: 20px;
+    font-weight: bold;
+}
+
+.time-cont {
+    min-width: fit-content;
+    padding: 20px;
+    gap: 20px;
+}
+
+.time-cont>button {
+    border: 2px solid rgb(0, 255, 0);
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.date-cont {
+    gap: 20px;
+    cursor: pointer;
+}
+
+.date-cont>div {
+    border-radius: 5px;
+}
+
+.active {
+    border-color: red;
+    border-width: 3px;
+}
+
+.active2 {
+    background-color: rgb(0, 168, 0);
+    color: white;
+    border: 2px solid green;
+    width: 40px;
+    height: 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* seat layout css */
+.setLayout-cont {
+    width: 100%;
+    height: 100%;
+    padding: 20px;
+}
+
+.slmdetails-cont {
+    width: 100%;
+    padding-bottom: 20px;
+}
+
+.seatLayout {
+    width: 100%;
+    text-align: center;
+}
+
+.seat {
+    width: 100%;
+}
+
+.stl {
+    width: 100%;
+    gap: 50px;
+}
+
+.seatbtn {
+    width: 100%;
+    gap: 20px;
+}
+
+.bookseat {
+    width: 40px;
+    height: 30px;
+    border: 2px solid rgb(0, 168, 0);
+    color: rgb(0, 168, 0);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.proceedbtn {
+    width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.prbtn {
+    width: 300px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+
+/* payment page */
+.payment-cont {
+    width: 100%;
+    margin-top: 100px;
+    height: 400px;
+}
+
+.pp {
+    width: 500px;
+    height: 300px;
+}
+
+.pname {
+    padding: 10px;
+    width: 150px;
+    height: 100%;
+    border-right: 1px solid grey;
+}
+
+.upi {
+    width: 100%;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+    color: white;
+}
+
+.rp {
+    width: 100%;
+    height: 100%;
+}
+
+.pfinput {
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid red;
+    outline: none;
+}
+
+.rp>div>button {
+    margin-top: 60px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    outline: none;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+}
+
+/* orderDetails-page */
+.orderDetails-cont {
+    width: 100%;
+    height: 100%;
+}
+
+.main-od {
+    width: fit-content;
+    margin-top: 50px;
+    padding: 10px;
+    height: fit-content;
+}
+
+
+
+
+
+/* footer css */
+.footer-cont {
+    width: 100%;
+    padding: 20px;
+    border-top: 1px solid rgb(0, 0, 0);
+    border-bottom: 1px solid black;
+}
